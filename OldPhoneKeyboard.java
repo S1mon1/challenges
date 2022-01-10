@@ -40,7 +40,7 @@ public class Old_Phone_Keyboard {
 
     }
 
-    static public String encode(String word, HashMap map)
+    public static String encode(String word, HashMap map)
     {
         String new_word = "";
         for(int i = 0; i < word.length(); i++)
